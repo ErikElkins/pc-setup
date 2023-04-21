@@ -6,4 +6,5 @@ winget install Microsoft.VisualStudioCode
 winget install Git.Git
 winget install RiotGames.Valorant.NA
 winget install Notion.Notion
+winget install Mojang.MinecraftLauncher
 wsl --install
