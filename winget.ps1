@@ -8,4 +8,5 @@ winget install RiotGames.Valorant.NA
 winget install Notion.Notion
 winget install Mojang.MinecraftLauncher
 winget install NZXT.CAM
+winget install Docker.DockerDesktop
 wsl --install
