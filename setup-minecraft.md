@@ -5,3 +5,15 @@ Assuming Docker Desktop has been installed via `winget install Docker.DockerDesk
 ```ps1
 docker run -d -it -e EULA=TRUE -e GAMEMODE=creative -e DIFFICULTY=easy -e VIEW_DISTANCE=1000 -p 19132:19132/udp -v mc-bedrock-data:/data itzg/minecraft-bedrock-server
 ```
+
+To go to the volume where the container is located, go to the following directory.
+
+```ps1
+cd \\wsl$\docker-desktop-data\data\docker\volumes
+```
+
+If you need to change the game mode, you may need to remove the docker volume:
+
+```ps1
+docker volume rm mc-bedrock-data
+```
