@@ -11,3 +11,4 @@ winget install NZXT.CAM
 winget install 7zip.7zip
 wsl --install
 winget install Docker.DockerDesktop
+winget install MoonlightGameStreamingProject.Moonlight
