@@ -9,6 +9,8 @@ winget install Notion.Notion
 winget install Mojang.MinecraftLauncher
 winget install NZXT.CAM
 winget install 7zip.7zip
+winget install Doist.Todoist
+winget install MoonlightGameStreamingProject.Moonlight
 wsl --install
 winget install Docker.DockerDesktop
-winget install MoonlightGameStreamingProject.Moonlight
+
